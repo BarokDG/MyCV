@@ -6,6 +6,8 @@ h3{
     font-style: bold;
     font-family: 'Courier New', Courier, monospace;
 
+    width: 1rem;
+
     border-bottom: solid 8px navajowhite;
     padding-bottom: 15px;
 
@@ -17,3 +19,27 @@ img{
     margin: 1.66667%;
     height: 680px;
 }
+
+p{
+    float: left;
+    width: 30%;
+    margin: 1.66667%;
+    text-align: center;
+}
+
+header{
+    background-color: #b4b4b44d;;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+}
+
+nav>ul>li:hover{
+    background-color: yellow;
