@@ -1,0 +1,45 @@
+header{
+    background-color: #b4b4b44d;;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+}
+
+nav>ul>li:hover{
+    background-color: yellow;
+}
+
+.container{
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding: 180px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+#one{
+    background-color: teal;
+}
+
+#two{
+    background-color: tomato;
+}
+
+#three{
+    background-color: wheat;
+}

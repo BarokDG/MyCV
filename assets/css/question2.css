@@ -1,0 +1,30 @@
+
+table{
+    margin: auto;
+}
+
+td{
+    padding: 100px;
+}
+
+#rightbottom{
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+}
+
+#bottom{
+    border-bottom: 5px solid;
+}
+
+#leftbottom{
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+}
+
+#right{
+    border-right: 5px solid;
+}
+
+#left{
+    border-left: 5px solid;
+}
