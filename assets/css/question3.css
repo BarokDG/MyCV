@@ -1,0 +1,146 @@
+.main{
+    margin: 25px;
+    float: left;
+}
+
+.column{
+    float: left;
+    padding: 60px 35px;
+}
+
+.row{
+    padding: 20px 105px;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#white{
+    background-color: white;
+}
+
+#red{
+    background-color: red;
+}
+
+#black{
+    background-color: black;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+/*Armenia*/
+#ablorange{
+    background-color: #d90012;
+}
+
+#adarblue{
+    background-color: #0033a0;
+}
+
+#ameriyellow{
+    background-color: #f2a800;
+}
+
+/*Austria*/
+#aimpred{
+    background-color: #ed2939;
+}
+
+/*
+#arrow-left {
+
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent; 
+
+    border-left:60px solid blue; 
+}
+*/
+
+/*Benin*/
+#begreen{
+    background-color: #008751;
+}
+
+#betwo li{
+    
+}
+
+
+#beyellow{
+    background-color: #fcd116;
+}
+
+#bered{
+    background-color: #e8112d;
+}
+
+/*Botswana*/
+#bblue{
+    background-color: #75aadb;
+    padding: 22.5px 105px;
+}
+
+#bwhite{
+    padding: 2.5px 105px;
+}
+
+#bblack{
+    background-color: black;
+    padding: 10px 105px;
+}
+
+/*Bulgaria*/
+#Bulgaria{
+    border: 0.5px solid gray;
+}
+
+#bgreen{
+    background-color: #00966e;
+}
+
+#bred{
+    background-color: #d62612;
+}
+
+/*Colombia*/
+#cyellow{
+    background-color: #fcd116;
+    padding: 30px 105px;
+}
+
+#cblue{
+    background-color: #003893;
+    padding: 15px 105px;
+}
+
+#cred{
+    background-color: #ce1126;
+    padding: 15px 105px;
+}
+
+/*Denmark*/
+#Denmark{
+    float: left;
+}
+#dsred{
+    background-color: #c60c30;
+    padding: 30px;
+}
+
+#dswhite{
+    background-color: white;
+    padding: 10px;
+}
+
+#dlred{
+    background-color: #c60c30;
+    padding: 30px 60px;
+}
+
+#dmiddle{
+    padding: 20px 105px;
+}
