@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ContactMe</title>
     <link rel="icon" href="./assets/icons/Dooffy-Characters-B1.ico">
+    <!-- 
     <style>
         body{
             background-image: url("./assets/images/adult-black-pug-1851164.jpg");
@@ -12,18 +13,18 @@
             background-size: cover;
         }
     </style>
-
-    <link rel="stylesheet" href="/assets/css/style.css">
+    -->
+    <link rel="stylesheet" href="./assets/css/css.css">
 
 </head>
 <body>
-    <hr>
-    <a href="./index.html">Home</a> |
-    <a href="./contact.html">Contact</a> |
-    <a href="./gallery2.html">Gallery</a>
-    <a href="./blog.html">Blog</a>
-    <a href="./myworks.html">My Works</a>
-    <hr>
+    <div class="bottom">
+        <a href="./index.html">Home</a> |
+        <a href="./contact.html">Contact</a> |
+        <a href="./gallery2.html">Gallery</a> |
+        <a href="./blog.html">Blog</a> |
+        <a href="./myworks.html">My Works</a>
+    </div>
 
     <!--
             <table cellspacing = "10">
@@ -39,80 +40,81 @@
     -->
 
 
+    <div class="bottom">
+        <img src="./assets/images/rounded_corners (3).jpg" alt="Propic" width="20%">
+        <h1>Barok Dagim</h1>
+        <h3>Student, Addis Ababa University</h3>
+        <p>My name is Barok Dagim. I'm an aspiring 2nd year IT student at AAIT. I love music, technolgy, sports, and animals.</p>
+    </div>
 
-    <img src="./assets/images/rounded_corners (3).jpg" alt="Propic" width="20%">
-    <h1>Barok Dagim</h1>
-    <h3>Student, Addis Ababa University</h3>
-    <p>My name is Barok Dagim. I'm an aspiring 2nd year IT student at AAIT. I love music, technolgy, sports, and animals.</p>
-
-    <hr>
-    <h3 id = "clear">Contact Me>></h3>
-    <table>
-        <tr>
-            <td>
-                <form>
-                    <table>
-                        <tr>
-                            <td><label for="fName">First Name</label></td>
-                            <td><input type="text" id = "fName" pattern = "[A-Za-z]{1,15}" name = "fName" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="sName">Second Name</label></td>
-                            <td><input type="text" id = "sName" pattern = "[A-Za-z]{1,15}"  name = "sName" required></td>
-                        </tr>
-            
-                        <tr>
-                            <td><label for="Email">Email</label></td>
-                            <td><input type="email" id = "Email" name = "email" required></td>
-                        </tr>
-            
-                        <tr>
-                            <td><label for="tel">Phone Number</label></td>
-                            <td><input type ="tel" id="tel" pattern='^\+\d{0,13}' title = "Enter your country code including the plus sign and fill in the rest!" name="tel"></td>
-                        </tr>
-            
-                        <tr>
-                            <td><label for="rating">Rate My Website</label></td>
-                            <td><input type="range" name="rating" id="rating" min="1" max="10" step="0" value="5"></td>
-                        </tr>
-            
-                        <tr>
-                            <td><label for="Date">Date</label></td>
-                            <td><input type="date" id = "Date" name = "date" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="Password">Password</label></td>
-                            <td><input type="password" id="Password" name = "Password" min-length = "8" title = "Choose a password that's atleast 8 characters long." required></td>
-                        </tr>
-                    </table>
-                    
-                    <br>
-                    <label for="Text">Message</label><br>
-                    <textarea name="" id="Text" cols="30" rows="10"></textarea>
-                    <br>
-                    Country: 
-                    <select name="country" id="">
-                        <option value="">Ethiopia</option>
-                        <option value="">China</option>
-                        <option value="">Germany</option>
-                    </select>
-                    <br>
-                    <br>
-                    <input type="submit" value = "Submit">
-                </form>
-            </td>
-            <td>
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18743.175053420273!2d38.76585550482359!3d9.03936758293915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2321687a606863f3!2sAddis%20Ababa%20Institute%20of%20Technology!5e0!3m2!1sen!2set!4v1583329987757!5m2!1sen!2set" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="bottom">
+        <h3 id = "clear">Contact Me>></h3>
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        <table>
+                            <tr>
+                                <td><label for="fName">First Name</label></td>
+                                <td><input type="text" id = "fName" pattern = "[A-Za-z]{1,15}" name = "fName" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="sName">Second Name</label></td>
+                                <td><input type="text" id = "sName" pattern = "[A-Za-z]{1,15}"  name = "sName" required></td>
+                            </tr>
+                
+                            <tr>
+                                <td><label for="Email">Email</label></td>
+                                <td><input type="email" id = "Email" name = "email" required></td>
+                            </tr>
+                
+                            <tr>
+                                <td><label for="tel">Phone Number</label></td>
+                                <td><input type ="tel" id="tel" pattern='^\+\d{0,13}' title = "Enter your country code including the plus sign and fill in the rest!" name="tel"></td>
+                            </tr>
+                
+                            <tr>
+                                <td><label for="rating">Rate My Website</label></td>
+                                <td><input type="range" name="rating" id="rating" min="1" max="10" step="0" value="5"></td>
+                            </tr>
+                
+                            <tr>
+                                <td><label for="Date">Date</label></td>
+                                <td><input type="date" id = "Date" name = "date" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Password">Password</label></td>
+                                <td><input type="password" id="Password" name = "Password" min-length = "8" title = "Choose a password that's atleast 8 characters long." required></td>
+                            </tr>
+                        </table>
+                        
+                        <br>
+                        <label for="Text">Message</label><br>
+                        <textarea name="" id="Text" cols="30" rows="10"></textarea>
+                        <br>
+                        Country: 
+                        <select name="country" id="">
+                            <option value="">Ethiopia</option>
+                            <option value="">China</option>
+                            <option value="">Germany</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input type="submit" value = "Submit">
+                    </form>
+                </td>
+                <td>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18743.175053420273!2d38.76585550482359!3d9.03936758293915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2321687a606863f3!2sAddis%20Ababa%20Institute%20of%20Technology!5e0!3m2!1sen!2set!4v1583329987757!5m2!1sen!2set" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
                     </div>
-                    <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
-                </div>
-            </td>
-        </tr>
-    </table>
-    
-    <hr>
+                </td>
+            </tr>
+        </table>
+    </div>
+
     <p align = "center">Developed by Barok Dagim &copy; 2019</p>
     
 </body>
