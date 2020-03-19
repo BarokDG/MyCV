@@ -2,3 +2,29 @@
     padding-bottom: 10px;
     border-bottom: 1px solid;
 }
+
+#navbar{
+    padding: 0px 10px 10px 10px;
+}
+
+#img{
+    text-align: center;
+}
+
+#desc{
+    text-align: justify;
+}
+
+#hobbies{
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#work{
+    margin: 10px auto;
+    padding: 10px;
+}
+
+#ratings{
+    text-align: center;
+}
