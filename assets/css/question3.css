@@ -65,17 +65,16 @@
     background-color: #008751;
 }
 
-#betwo li{
-    
-}
-
 
 #beyellow{
     background-color: #fcd116;
+    position: static;
+    padding: 30px 105px;
 }
 
 #bered{
     background-color: #e8112d;
+    padding: 30px 105px;
 }
 
 /*Botswana*/
@@ -122,6 +121,15 @@
     padding: 15px 105px;
 }
 
+/*Cote d'Ivoire*/
+#coorange{
+    background-color: #f77f00;
+}
+
+#cogreen{
+    background-color: #009e60;
+}
+
 /*Denmark*/
 #Denmark{
     float: left;
@@ -143,4 +151,20 @@
 
 #dmiddle{
     padding: 20px 105px;
+}
+
+/*Madagascar*/
+#Madagascar{
+    border: 0.5px solid;
+}
+
+#madred{
+    background-color: #fc3d32;
+    position: static;
+    padding: 30px 105px;
+}
+
+#madgreen{
+    background-color: #007e3a;
+    padding: 30px 105px;
 }

@@ -28,3 +28,9 @@
 #ratings{
     text-align: center;
 }
+
+[type="submit"]{
+    height: 30px;
+    width: 80px;
+}
+

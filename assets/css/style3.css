@@ -1,5 +1,9 @@
+body{
+    background-color: lightgray;
+}
+
 header{
-    background-color: #b4b4b44d;;
+    background-color: rgb(138, 43, 226, 0.5);
 }
 
 nav>ul>li{
@@ -43,3 +47,10 @@ a:hover{
 #three{
     background-color: wheat;
 }
+
+@media screen and (min-width: 720px){
+    body{
+        background-color: lightblue;
+    }
+}
+
